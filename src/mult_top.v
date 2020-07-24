@@ -20,7 +20,7 @@ module mult_top(
     reg [15:0] X_vec;
     reg [15:0] Y_vec;
     
-    QLM_w6q4 mult(X_vec,Y_vec,P_vec); 
+    QLM_w6q8 mult(X_vec,Y_vec,P_vec); 
 
  
     always @(posedge clk) 
